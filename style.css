@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+	background: #FAFAFA;
+}
+
+.details {
+	padding: 10px;
+}
+
+#username-input {
+	padding: 8px;
+	margin-bottom: 6px;
+	width: 268px;
+	height: 38px;
+}
+
+#password-input {
+	padding: 8px;
+	margin-bottom: 4px;
+	width: 268px;
+	height: 38px;
+}
+
+/*::-webkit-input-placeholder {  Chrome/Opera/Safari 
+	color: #8e8e8e;
+	font-size: 9pt; 
+}
+*/
+
+input {
+	margin-left: 30px;
+	background: #FAFAFA;
+	outline: none !important;
+	border:1px solid #dbdbdb;
+	box-shadow: 0 0 0px #719ECE;
+	border-radius: 3px;
+	font-family: Cabin, sans-serif;
+}
+
+input:focus {
+	outline: none !important;
+	border:1px solid #a8a8a8;
+	box-shadow: 0 0 0px #719ECE;
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label{
+	top: 14px;
+	bottom: 10px;
+	left: 20px;
+	font-size: 11px;
+	opacity: 1;
+}
+
+.floating-label {
+	margin-left: 1008px;
+	margin-top: 248px;
+	color: #8e8e8e;
+	font-size: 9pt;
+	font-family: Cabin, sans-serif;
+	font-weight: lighter;
+	position: absolute;
+	pointer-events: none;
+	left: 20px;
+	top: 25px;
+	transition: 0.2s ease all;
+}
+
+input:focus ~ .floating-label2,
+input:not(:focus):valid ~ .floating-label2{
+	top: 58px;
+	bottom: 10px;
+	left: 20px;
+	font-size: 11px;
+	opacity: 1;
+}
+
+.floating-label2 {
+	margin-left: 1008px;
+	margin-top: 248px;
+	color: #8e8e8e;;
+	font-size: 9pt;
+	font-family: Cabin, sans-serif;
+	font-weight: lighter;
+	position: absolute;
+	pointer-events: none;
+	left: 20px;
+	top: 69px;
+	transition: 0.2s ease all;
+}
+
+.button {
+	background-color: #0095f6; /* Green */
+	font-weight: bold;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	margin-left: 40px;
+	text-align: center;
+	font-size: 14px;
+	width: 268px;
+	height: 30px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.links {
+	font-family: Cabin, sans-serif;
+	font-size: 13px;
+	margin-bottom: 50px;
+	margin-left: 377px;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+}
+
+a.link1 {
+	margin-right: 10px;
+	color: #284A6B;
+	text-decoration: none;
+}
+
+a.link2 {
+	margin-right: 10px;
+	color: #284A6B;
+	text-decoration: none;
+}
+
+a.link3 {
+	margin-right: 10px;
+	color: #284A6B;
+	text-decoration: none;
+}
+
+a.link4 {
+	margin-right: 10px;
+	color: #284A6B;
+	text-decoration: none;
+}
+
+a.link5 {
+	margin-right: 10px;
+	color: #284A6B;
+	text-decoration: none;
+}
+
+a.link6 {
+	margin-right: 10px;
+	color: #284A6B;
+	text-decoration: none;
+}
+
+a.link7 {
+	margin-right: 10px;
+	color: #284A6B;
+	text-decoration: none;
+}
+
+a.link8 {
+	margin-right: 10px;
+	color: #284A6B;
+	text-decoration: none;
+}
+
+a.link9 {
+	margin-right: 10px;
+	color: #284A6B;
+	text-decoration: none;
+}
+
+a.link10 {
+	margin-right: 10px;
+	color: #284A6B;
+	text-decoration: none;
+}
+
+#not-working {
+	color: #284A6B;
+	padding-right: 267px;
+}
+
+#instfromface {
+	color: 95958E;
+}
+
+img {
+	margin-top: 34px;
+	margin-left: 85px;
+	margin-bottom: 20px;
+	width: 176px;
+	height: 51px;
+}
+
+.main-box {
+	height: 380px;
+	width: 350px;
+	border: 1px solid #dbdbdb;
+	margin-top: 141px; /* 174 */
+	margin-left: 980px;
+	margin-right: 592px;
+	margin-bottom: 419px;
+}
+
+.form-box {
+	padding-bottom: 40px;
+}
+
+.phone {
+	position: absolute;
+	width: 368px;
+	height: 583px;
+	left: 496px;
+	top: 90px;
+}
+
+.or {
+	font-family: Cabin, sans-serif;
+	text-align: center;
+	color: #dbdbdb;
+	margin-top: 16px;
+}
+
+.or div{
+	display: inline;
+}
+
+#mid {
+	color: #8e8e8e;
+	font-size: 13px;
+	padding-left: 17px;
+	padding-right: 17px;
+}
+
+#facelink {
+	color: #3E5185;
+	text-decoration: none;
+	font-family: Cabin, sans-serif;
+	font-size: 15px;
+}
+
+#facebook {
+	position: relative;
+	margin-left: 116px;
+	margin-top: 25px;
+}
+
+#Flogo {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	right: 238px;
+	top: -35px;
+}
+
+#forgotPass {
+	color: #00376B;
+	text-decoration: none;
+	font-family: Cabin, sans-serif;
+	font-size: 12px;
+}
+
+.fpass {
+	position: relative;
+	margin-left: 125px;
+	margin-top: 18px;
+}
+
+.mini-box {
+	border: 1px solid #dbdbdb;
+	position: absolute;
+	padding-left: 81px;
+	padding-right: 81px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	left: 980px;
+	top: 530px;
+}
+
+#signuplink {
+	text-decoration: none;
+	font-family: Cabin, sans-serif;
+	font-size: 14px;
+	color: #0095F6;
+}
+
+#no-account {
+	font-family: Cabin, sans-serif;
+	font-size: 14px;
+}
+
+.app-text {
+	position: absolute;
+	left: 1115px;
+	top: 616px;
+}
+
+#app {
+	font-family: Cabin, sans-serif;
+	font-size: 14px;
+}
+
+#app-store {
+	position: absolute;
+	width: 136px;
+	height: 40px;
+	left: 930px;
+	top: 620px;
+}
+
+#google-play {
+	position: absolute;
+	width: 136px;
+	height: 40px;
+	left: 1075px;
+	top: 620px;
+}
